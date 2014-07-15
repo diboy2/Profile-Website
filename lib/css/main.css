@@ -1,0 +1,131 @@
+#homeheader{
+	text-align:center;
+	background-color: white;
+}
+#sidebar{
+	position: fixed; 
+	right: 20px;
+
+}
+
+
+.media ul{
+
+	padding: 0px;
+}
+
+.media il {
+	display: inline-block;
+	padding:0px 10px 0px 0px;
+}
+
+.hero-unit{
+	background-image: url(front_picture.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-color: white;
+	color:white;
+	height:300px;
+}
+
+#aboutcontent{
+
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+/* Image Change */
+
+
+
+#featured-projects { 
+  background:#D3D3D3;
+  padding:10px;
+  overflow:hidden;
+}
+
+.featured-projects-wrapper { 
+  background:rgba(241,236,235, 1);
+  width:300px;
+  overflow:auto;
+}
+
+
+.carousel { 
+  width:3000px;
+}
+
+#spinner { 
+  border-radius:100%;
+  width:200px;
+  height:200px;
+}
+
+.small { 
+  text-decoration:none;
+  color:#90C9EF;
+  font-size:14px;
+  font-weight:600;
+}
+
+.card { 
+  background:white;
+  width:210px;
+  float:left;
+  margin-right: 20px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.card img { 
+  width:100%;
+}
+
+.card p { 
+  margin-top:0px;
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+
+  color:gray;
+  font-size:14px;
+  line-height:130%;
+}
+
+.card h3 { 
+  padding-left:10px;
+}`
+	
+			#content
+			{
+				float:left;
+				display:inline;
+				
+				-webkit-transition-property: -webkit-transform;
+				-webkit-transition-duration: 0.5s;
+				-webkit-transition-timing-function: ease-out;
+
+				width:3000px;
+				overflow:auto;
+				/*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+				-webkit-transform: translate3d(0px,0px,0px); 
+			}
+	
+	
+			#content .card
+			{
+				/*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+				-webkit-transform: translate3d(0px,0px,0px); 
+			}
