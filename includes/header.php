@@ -16,7 +16,7 @@
     <title>Off Canvas Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="lib/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/css/main.css" rel="stylesheet" type="text/css" />
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/offcanvas/offcanvas.css" rel="stylesheet" type="text/css" />
     <!-- Just for debugging purposes. Don't actually copy this line! -->
