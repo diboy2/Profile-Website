@@ -5,6 +5,8 @@ include 'includes/navbar.php';
 ?>
 
 <div class="container">
+<div class="panel panel-default">
+<div class="panel-body">
 	<div class="row">
 		<div class="col-md-3" background="gray">
 			
@@ -19,7 +21,7 @@ include 'includes/navbar.php';
 
 		</div>
 		
-		<div class="col-md-5" >
+		<div class="col-md-6" >
 			<div class = "panel panel-default">
 				<div class="panel-heading"> 
 				<h3 class="panel-title">About Me </h3> 
@@ -56,21 +58,22 @@ include 'includes/navbar.php';
 		</div>
 
 		<div class="col-md-3 " role="navigation">
-        <div class="media">
-			<ul class="list-unstyled">
+        
+			<ul class="list-unstyled text-center">
 				<li><a href="https://www.facebook.com/diboy2" target=" _blank"><img src="../lib/img/facebook.png"></a></li>
 				<li><a href="https://twitter.com/diboy5192" target=" _blank"><img src="../lib/img/twitter.png"></a></li>
 				<li><a href="https://github.com/diboy2" target=" _blank"> <img src="../lib/img/github.png"></a></li>
 			</ul>
-			</div>
+
+			
         </div>
 	</div>
-      <hr>
+	</div>
 
       <footer>
        
       </footer>
-
+      </div>
     </div><!--/.container-->
 
 

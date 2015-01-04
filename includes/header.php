@@ -1,6 +1,9 @@
 <?php
-
+    ini_set('display_errors',1);
+    ini_set('display_startup_errors',1);
+    error_reporting(-1);
 ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,12 +16,13 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="http://getbootstrap.com/docs-assets/ico/favicon.png" />
-    <title>Off Canvas Template for Bootstrap</title>
+    <title>Adrian Profile</title>
     <!-- Bootstrap core CSS -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../lib/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
     <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/offcanvas/offcanvas.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/css/offcanvas.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/css/main.css" rel="stylesheet" type="text/css" />
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

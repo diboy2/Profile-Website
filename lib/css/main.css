@@ -32,7 +32,9 @@
 #aboutcontent{
 
 }
-
+.container{
+  border-color: #ddd;
+}
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -45,6 +47,7 @@
   font-size: 4.5em;
   font-weight: 700;
 }
+
 
 /* Image Change */
 
@@ -129,3 +132,8 @@
 				/*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
 				-webkit-transform: translate3d(0px,0px,0px); 
 			}
+
+      body{
+  background: url('http://i.imgur.com/dnDsP0b.jpg');
+  background-attachment: fixed;
+}

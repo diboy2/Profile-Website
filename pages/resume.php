@@ -5,22 +5,21 @@ include '../includes/navbar.php';
 ?>
 
     <div class="container">
+      <div class="panel panel-default">
+      <div class="panel-body">
 
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div>
-          <embed width="100%" height="600px" name="plugin" src="../Files/resume.pdf" type="application/pdf">
-        </div><!--/span-->
+        
+          <embed width="100%" height="800px" name="plugin" src="../Files/Fall_2014_Resume_Without_GPA.pdf" type="application/pdf">
+        
 
   
       </div><!--/row-->
 
-      <hr>
 
       <footer>
      
       </footer>
-
+      </div>
     </div><!--/.container-->
 
 
